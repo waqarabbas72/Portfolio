@@ -58,7 +58,7 @@ const Skills = () => {
         {data.map((item) => {
           return (
             <>
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center hover:shadow-2xl rounded-xl duration-500">
                 <img src={item.src} alt="" className="w-72 h-52 rounded-lg my-2" />
                 <p className="font-bold text-gray-800 text-xl">{item.skill}</p>
                 <p className="text-gray-600 font-bold">{item.experience}</p>
