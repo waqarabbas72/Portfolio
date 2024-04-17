@@ -6,7 +6,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 
-export default function Header() {
+export default function Header() { 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
