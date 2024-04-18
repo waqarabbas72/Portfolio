@@ -1,6 +1,6 @@
 import {useState } from "react";
 import { Dialog,  Popover } from "@headlessui/react";
-import { react } from '@vitejs/plugin-react';
+// import { react } from '@vitejs/plugin-react';
 import {
   Bars3Icon,
   XMarkIcon,

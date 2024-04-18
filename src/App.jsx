@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Qualification from "./components/Qualification";
 import Work from "./components/Work";
+import SocialMedia from "./components/SocialMedia";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Qualification />
       <Work />
       <Contact />
+      <SocialMedia className={`flex items-center my-4 gap-4 justify-center`} />
     </>
   );
 }

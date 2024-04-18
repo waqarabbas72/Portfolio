@@ -1,4 +1,3 @@
-
 import { BiSolidInstitution } from "react-icons/bi";
 import { BsCalendar2DateFill } from "react-icons/bs";
 import { RiGraduationCapFill } from "react-icons/ri";

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Switch } from "@headlessui/react";
 
 function classNames(...classes) {
@@ -126,10 +125,6 @@ export default function Contact() {
                   <option>CA</option>
                   <option>EU</option>
                 </select>
-                {/* <ChevronDownIcon
-                  className="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
-                  aria-hidden="true"
-                /> */}
               </div>
               <input
                 type="number"
