@@ -1,5 +1,3 @@
-import React from "react";
-
 const data = [
   {
     skill: "HTML",
@@ -51,7 +49,7 @@ const data = [
 const Skills = () => {
   return (
     <>
-      <p className="font-bold text-4xl text-center text-gray-800">
+      <p className="font-bold text-4xl text-center text-gray-800 tracking-widest">
         SKILLS & EXPERIENCE
       </p>
       <div className="mx-auto grid max-w-2xl grid-cols-1 md:grid-cols-2 text-center md:text-start items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-3 lg:px-8">
@@ -59,7 +57,11 @@ const Skills = () => {
           return (
             <>
               <div className="flex flex-col items-center hover:shadow-2xl rounded-xl duration-500">
-                <img src={item.src} alt="" className="w-72 h-52 rounded-lg my-2" />
+                <img
+                  src={item.src}
+                  alt=""
+                  className="w-72 h-52 rounded-lg my-2"
+                />
                 <p className="font-bold text-gray-800 text-xl">{item.skill}</p>
                 <p className="text-gray-600 font-bold">{item.experience}</p>
               </div>

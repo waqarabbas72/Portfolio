@@ -24,7 +24,7 @@ export default function Contact() {
         />
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <p className="font-bold text-4xl text-center text-gray-800">
+        <p className="font-bold text-4xl text-center text-gray-800 tracking-widest">
           CONTACT ME !
         </p>
         <p className="mt-2 text-lg leading-8 text-gray-600 font-bold">
@@ -126,13 +126,13 @@ export default function Contact() {
                   <option>CA</option>
                   <option>EU</option>
                 </select>
-                <ChevronDownIcon
+                {/* <ChevronDownIcon
                   className="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
                   aria-hidden="true"
-                />
+                /> */}
               </div>
               <input
-                type="tel"
+                type="number"
                 name="phone-number"
                 id="phone-number"
                 autoComplete="tel"
@@ -191,7 +191,7 @@ export default function Contact() {
             type="submit"
             className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Let's talk
+            {`Let's Talk`}
           </button>
         </div>
       </form>
