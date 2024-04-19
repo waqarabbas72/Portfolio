@@ -36,7 +36,7 @@ export default function Content() {
           </div>
 
           <div className="flex lg:gap-5 items-center mt-3 lg:flex-col lg:absolute lg:top-44 lg:right-3">
-            <SocialMedia className={`flex items-center mt-3 lg:flex-col`}/>
+            <SocialMedia className={`flex items-center mt-3 lg:flex-col gap-4`}/>
           </div>
         </div>
         <div className="">

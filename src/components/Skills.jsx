@@ -60,7 +60,7 @@ const Skills = () => {
                 <img
                   src={item.src}
                   alt=""
-                  className="w-72 h-52 rounded-lg my-2"
+                  className="w-72 h-52 rounded-lg my-2 object-center"
                 />
                 <p className="font-bold text-gray-800 text-xl">{item.skill}</p>
                 <p className="text-gray-600 font-bold">{item.experience}</p>
