@@ -1,11 +1,16 @@
+import ecommerce from "../images/ecommerce.png";
+import crypto from "../images/crypto.png";
+import realestate from "../images/realestate.png";
+import dashboard from "../images/dashboard.png";
+import calculator from "../images/calculator.png";
+
 const products = [
   {
     id: 1,
     name: "React E-Commerce Website",
     href: "https://lighthearted-melba-38fe34.netlify.app",
     price: "$48",
-    imageSrc:
-      "https://www.upwork.com/att/download/portfolio/persons/uid/1683854300898009088/profile/projects/files/98cc9cfc-e9d4-434f-b3e2-f77c1ae224fc",
+    imageSrc: ecommerce,
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
@@ -14,8 +19,7 @@ const products = [
     name: "Crypto Detail App",
     href: "https://cheerful-dieffenbachia-a9a887.netlify.app",
     price: "$35",
-    imageSrc:
-      "https://www.upwork.com/att/download/portfolio/persons/uid/1683854300898009088/profile/projects/files/9ca5100a-1640-4326-b169-f684977869b2",
+    imageSrc: crypto,
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
@@ -24,8 +28,7 @@ const products = [
     name: "Real Estate Website UI",
     href: "https://zesty-melba-402efd.netlify.app",
     price: "$89",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+    imageSrc: realestate,
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -34,8 +37,7 @@ const products = [
     name: "Bootstrap Dashboard UI",
     href: "https://waqarabbas72.github.io/dashboard/",
     price: "$35",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
+    imageSrc: dashboard,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
@@ -44,8 +46,7 @@ const products = [
     name: "ReactJS Calculator",
     href: "https://illustrious-palmier-539d84.netlify.app/",
     price: "$35",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
+    imageSrc: calculator,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
