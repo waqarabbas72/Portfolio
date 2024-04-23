@@ -1,4 +1,7 @@
 import SocialMedia from "../SocialMedia";
+import PdfDownloadButton from '../CvDownloadBtn';
+import resume from '../../documents/my-resume.pdf'
+
 export default function Content() {
   return (
     <div className="bg-white relative">
@@ -30,9 +33,10 @@ export default function Content() {
             <button className="text-white py-2 px-4 mr-3 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
               Hire Me
             </button>
-            <button className="border border-gray-400 text-gray-800 font-bold py-2 px-4">
+            {/* <button className="border border-gray-400 text-gray-800 font-bold py-2 px-4">
               Download CV
-            </button>
+            </button> */}
+            <PdfDownloadButton pdfUrl={resume} fileName="my_downloaded_pdf.pdf" />
           </div>
 
           <div className="flex lg:gap-5 items-center mt-3 lg:flex-col lg:absolute lg:top-44 lg:right-3">
