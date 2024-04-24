@@ -46,8 +46,8 @@ function Contact() {
 
   return (
     <>
-      <p className="font-bold text-4xl text-center text-gray-800 tracking-widest my-4">
-        CONTACT ME NOW!
+      <p className="font-bold text-4xl text-center text-gray-800 tracking-widest mb-8">
+       GET IN TOUCH!
       </p>
       <form
         onSubmit={handleSubmit}
@@ -114,9 +114,9 @@ function Contact() {
         >
           {isLoading ? "Sending..." : "Send Message"}
         </button>
-        {isSuccess && <p className="success">Email sent successfully!</p>}
+        {isSuccess && <p className="success">Message sent successfully!</p>}
         {isError && (
-          <p className="error">Error sending email. Please try again.</p>
+          <p className="error">Error sending Message. Please try again.</p>
         )}
       </form>
     </>
