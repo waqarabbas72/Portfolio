@@ -1,48 +1,64 @@
+import html from "../images/html.png";
+import react from "../images/react.png";
+import next from "../images/next.png";
+import tailwind from "../images/tailwind.png";
+import bootstrap from "../images/bootstrap.png";
+import css from "../images/css.png";
+import responsive from "../images/responsive.png";
+import js from "../images/js.png";
+import webDesign from "../images/web design.png";
+import redux from "../images/redux.png";
+
 const data = [
   {
     skill: "HTML",
     experience: "4+ Years Of Experience",
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s",
+    src: html,
   },
   {
     skill: "CSS",
     experience: "4+ Years Of Experience",
-    src: "https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png",
+    src: css,
   },
   {
     skill: "JAVASCRIPT",
     experience: "4+ Years Of Experience",
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ8OzAGFPshiupQPT_rUFnHGZseBTwtXSJXrBJ3CaxZg&s",
+    src: js,
   },
   {
     skill: "BOOTSTRAP",
     experience: "4+ Years Of Experience",
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png",
+    src: bootstrap,
   },
   {
     skill: "TAILWIND CSS",
     experience: "4+ Years Of Experience",
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQMAgy_XeSr2CmOITAysaZtDxsVUSTSYtSM2EKE5ivhg&s",
+    src: tailwind,
   },
   {
     skill: "RESPONSIVE DESIGN",
     experience: "4+ Years Of Experience",
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Bezx00PHAVx7SuoITYul4-sSM1Oa57BWeO-8_GQS1A&s",
+    src: responsive,
   },
   {
     skill: "REACT",
     experience: "3+ Years Of Experience",
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTw3HApB4bsvabXW3L14cV-LhFo0L71QmEESJN3vW9Ow&s",
+    src: react,
   },
   {
     skill: "NEXT.JS",
     experience: "2+ Year Of Experience",
-    src: "https://miro.medium.com/v2/resize:fit:1000/1*KDMx1YspSrBcFJG-NDZgDg.png",
+    src: next,
+  },
+  {
+    skill: "Redux",
+    experience: "3+ Year Of Experience",
+    src: redux,
   },
   {
     skill: "WEB DESIGN",
     experience: "4+ Years Of Experience",
-    src: "https://designsvalley.com/wp-content/uploads/2023/10/what-is-web-design.png",
+    src: webDesign,
   },
 ];
 
@@ -60,7 +76,7 @@ const Skills = () => {
                 <img
                   src={item.src}
                   alt=""
-                  className="w-72 h-52 rounded-lg my-2 object-center"
+                  className="w-auto h-40 rounded-lg my-3 object-center"
                 />
                 <p className="font-bold text-gray-800 text-xl">{item.skill}</p>
                 <p className="text-gray-600 font-bold">{item.experience}</p>

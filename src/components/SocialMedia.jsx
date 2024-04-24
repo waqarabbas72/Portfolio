@@ -34,7 +34,7 @@ const SocialMedia = ({ className }) => {
             <>
               <a
                 href={item.href}
-                className="m-1 text-xl lg:text-3xl cursor-pointer z-10"
+                className="m-1 text-xl lg:text-3xl cursor-pointer z-10 hover:text-blue-500 duration-300"
               >
                 {item.icon}
               </a>

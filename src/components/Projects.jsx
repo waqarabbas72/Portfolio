@@ -54,7 +54,7 @@ const products = [
 
 export default function Projects() {
   return (
-    <div className="bg-white">
+    <div className="">
       <p className="font-bold text-4xl text-center text-gray-800 tracking-wider">
         MY PROJECTS
       </p>
@@ -72,13 +72,15 @@ export default function Projects() {
                   className="h-72 w-auto sm:w-72 object-cover object-center group-hover:opacity-75"
                 />
               </div>
-              <h3 className="mt-4 font-bold text-gray-800">{product.name}</h3>
-              <a
-                href={product.href}
-                className="cursor-pointer font-bold text-blue-700"
-              >
-                Live Preview
-              </a>
+              <div className="flex flex-col items-center">
+                <h3 className="mt-4 font-bold text-gray-800">{product.name}</h3>
+                <a
+                  href={product.href}
+                  className="cursor-pointer font-bold text-blue-700 border px-3 py-1 my-2 hover:text-gray-700"
+                >
+                  Live Preview
+                </a>
+              </div>
             </div>
           ))}
         </div>

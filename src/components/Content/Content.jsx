@@ -4,7 +4,7 @@ import resume from '../../documents/my-resume.pdf'
 
 export default function Content() {
   return (
-    <div className="bg-white relative">
+    <div className=" relative">
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div className="">
           <p className="text-4xl text-gray-500">
