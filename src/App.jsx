@@ -9,7 +9,6 @@ import Work from "./components/Work";
 import SocialMedia from "./components/SocialMedia";
 import styled from "styled-components";
 import { useState } from "react";
-import { FaToggleOff, FaToggleOn } from "react-icons/fa6";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 const StyledBody = styled.body`

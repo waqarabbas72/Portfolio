@@ -64,7 +64,7 @@ const data = [
 
 const Skills = () => {
   return (
-    <>
+    <div id="skills">
       <p className="font-bold text-4xl text-center text-gray-800 tracking-widest">
         SKILLS & EXPERIENCE
       </p>
@@ -85,7 +85,7 @@ const Skills = () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 
