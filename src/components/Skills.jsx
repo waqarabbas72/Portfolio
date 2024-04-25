@@ -1,6 +1,6 @@
 import html from "../images/html.png";
 import react from "../images/react.png";
-import next from "../images/next.png";
+import next from "../images/nextjs.png";
 import tailwind from "../images/tailwind.png";
 import bootstrap from "../images/bootstrap.png";
 import css from "../images/css.png";
