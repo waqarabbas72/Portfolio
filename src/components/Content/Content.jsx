@@ -1,6 +1,6 @@
 import SocialMedia from "../SocialMedia";
-import PdfDownloadButton from '../CvDownloadBtn';
-import resume from '../../documents/my-resume.pdf'
+import PdfDownloadButton from "../CvDownloadBtn";
+import resume from "../../documents/my-resume.pdf";
 
 export default function Content() {
   return (
@@ -22,12 +22,10 @@ export default function Content() {
               PAKISTAN
             </span>
           </p>
-          <p className="text-gray-600 tracking-wide mt-3">
-            As a frontend developer, I craft engaging and intuitive user
-            interfaces for websites and applications. Using HTML, CSS, and
-            JavaScript, I bring designs to life, focusing on user experience and
-            functionality. Collaborating with designers and backend teams, I
-            ensure a seamless and responsive digital experience for users.
+          <p className="text-gray-600 text-lg tracking-wide mt-3">
+            I turn ideas into beautiful and interactive web experiences.
+            Passionate about front-end development and bringing user interfaces
+            to life with code.
           </p>
           <div className="mt-3">
             <button className="text-white py-2 px-4 mr-3 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
@@ -36,7 +34,10 @@ export default function Content() {
             {/* <button className="border border-gray-400 text-gray-800 font-bold py-2 px-4">
               Download CV
             </button> */}
-            <PdfDownloadButton pdfUrl={resume} fileName="my_downloaded_pdf.pdf" />
+            <PdfDownloadButton
+              pdfUrl={resume}
+              fileName="my_downloaded_pdf.pdf"
+            />
           </div>
 
           <div className="flex lg:gap-5 items-center mt-3 lg:flex-col lg:absolute lg:top-44 lg:right-3">

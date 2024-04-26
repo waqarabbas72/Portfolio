@@ -45,7 +45,7 @@ function Contact() {
   };
 
   return (
-    <>
+    <div id="contact">
       <p className="font-bold text-4xl text-center text-gray-800 tracking-widest mb-8">
        GET IN TOUCH!
       </p>
@@ -119,7 +119,7 @@ function Contact() {
           <p className="error">Error sending Message. Please try again.</p>
         )}
       </form>
-    </>
+    </div>
   );
 }
 

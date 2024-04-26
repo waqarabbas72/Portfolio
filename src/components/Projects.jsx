@@ -57,7 +57,7 @@ const products = [
 
 export default function Projects() {
   return (
-    <div className="">
+    <div id="projects">
       <p className="font-bold text-4xl text-center text-gray-800 tracking-wider">
         MY PROJECTS
       </p>

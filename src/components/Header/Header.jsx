@@ -18,6 +18,24 @@ export default function Header() {
     });
   };
 
+  const scrollToProjects = () => {
+    scroller.scrollTo("projects", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuint",
+      containerId: "projects",
+    });
+  };
+
+  const scrollToContact = () => {
+    scroller.scrollTo("contact", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuint",
+      containerId: "contact",
+    });
+  };
+
   return (
     <header className="">
       <nav
@@ -52,12 +70,24 @@ export default function Header() {
             Skills
           </Link>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            onClick={scrollToProjects}
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Projects
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            onClick={scrollToContact}
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Contact
-          </a>
+          </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
@@ -89,33 +119,58 @@ export default function Header() {
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+              <div className="space-y-2 py-6 flex flex-col items-center">
+                <Link
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  onClick={
+                    (scrollToSkills,
+                    () => {
+                      setMobileMenuOpen(false);
+                    })
+                  }
+                  className="text-sm font-semibold leading-6 text-gray-900"
                 >
-                  About
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  Skills
+                </Link>
+
+                <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  onClick={
+                    (scrollToProjects,
+                    () => {
+                      setMobileMenuOpen(false);
+                    })
+                  }
+                  className="text-sm font-semibold leading-6 text-gray-900"
                 >
                   Projects
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                </Link>
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  onClick={
+                    (scrollToContact,
+                    () => {
+                      setMobileMenuOpen(false);
+                    })
+                  }
+                  className="text-sm font-semibold leading-6 text-gray-900"
                 >
                   Contact
-                </a>
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Hire Me
-                </a>
+                </Link>
+                <div className="py-6">
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Hire Me
+                  </a>
+                </div>
               </div>
             </div>
           </div>

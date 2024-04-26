@@ -10,6 +10,7 @@ import SocialMedia from "./components/SocialMedia";
 import styled from "styled-components";
 import { useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
+import About from "./components/About";
 
 const StyledBody = styled.body`
   background-color: ${({ theme }) => theme.backgroundColor};
@@ -43,6 +44,7 @@ function App() {
             {isDarkMode ? <MdLightMode /> : <MdDarkMode />}
           </button>
           <Content />
+          <About />
           <Skills />
           <Projects />
           <Qualification />
