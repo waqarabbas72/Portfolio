@@ -1,6 +1,7 @@
 import SocialMedia from "../SocialMedia";
 import PdfDownloadButton from "../CvDownloadBtn";
 import resume from "../../documents/my-resume.pdf";
+import me from '../../images/me.png'
 
 export default function Content() {
   return (
@@ -48,9 +49,9 @@ export default function Content() {
         </div>
         <div className="">
           <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
+            src={me}
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            className="rounded-lg bg-gray-100"
+            className="rounded-lg bg-gray-100 w-96"
           />
         </div>
       </div>
