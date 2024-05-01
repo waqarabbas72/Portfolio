@@ -65,7 +65,7 @@ export default function Header() {
             spy={true}
             smooth={true}
             onClick={scrollToSkills}
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
           >
             Skills
           </Link>
@@ -75,7 +75,7 @@ export default function Header() {
             spy={true}
             smooth={true}
             onClick={scrollToProjects}
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
           >
             Projects
           </Link>
@@ -84,7 +84,7 @@ export default function Header() {
             spy={true}
             smooth={true}
             onClick={scrollToContact}
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
           >
             Contact
           </Link>
@@ -130,7 +130,7 @@ export default function Header() {
                       setMobileMenuOpen(false);
                     })
                   }
-                  className="text-sm font-semibold leading-6 text-gray-900"
+                  className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
                 >
                   Skills
                 </Link>
@@ -145,7 +145,7 @@ export default function Header() {
                       setMobileMenuOpen(false);
                     })
                   }
-                  className="text-sm font-semibold leading-6 text-gray-900"
+                  className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
                 >
                   Projects
                 </Link>
@@ -159,7 +159,7 @@ export default function Header() {
                       setMobileMenuOpen(false);
                     })
                   }
-                  className="text-sm font-semibold leading-6 text-gray-900"
+                  className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
                 >
                   Contact
                 </Link>
