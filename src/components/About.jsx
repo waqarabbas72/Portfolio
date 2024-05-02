@@ -1,4 +1,4 @@
-import { BiPhone } from "react-icons/bi";
+import { BiLogoWhatsapp } from "react-icons/bi";
 import { MdOutlineMail } from "react-icons/md";
 import me from '../images/me.png'
 
@@ -9,7 +9,7 @@ const data = [
       "I'm a passionate front-end developer with 4+ years of experience building user-friendly and responsive web interfaces. I'm proficient in HTML, CSS, JavaScript, and React.js. Beyond the code, I bring strong problem-solving skills and a collaborative spirit to every project. In my free time, I enjoy tinkering with new web technologies and staying up-to-date on the latest trends.",
     phone: "+923408616414",
     email: "waqarabas72@gmail.com",
-    PhoneIcon: <BiPhone />,
+    PhoneIcon: <BiLogoWhatsapp />,
     emailIcon: <MdOutlineMail />,
   },
 ];
