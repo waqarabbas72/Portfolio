@@ -27,14 +27,14 @@ export default function Header() {
     });
   };
 
-  const scrollToContact = () => {
-    scroller.scrollTo("contact", {
-      duration: 800,
-      delay: 0,
-      smooth: "easeInOutQuint",
-      containerId: "contact",
-    });
-  };
+  // const scrollToContact = () => {
+  //   scroller.scrollTo("contact", {
+  //     duration: 800,
+  //     delay: 0,
+  //     smooth: "easeInOutQuint",
+  //     containerId: "contact",
+  //   });
+  // };
 
   return (
     <header className="">
