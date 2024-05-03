@@ -32,7 +32,7 @@ const data = [
 const Qualification = () => {
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-      <p className="font-bold text-4xl text-center text-gray-800 tracking-widest mb-16">
+      <p className="font-bold text-2xl sm:text-4xl text-center text-gray-800 tracking-widest mb-16">
         QUALIFICATION
       </p>
 
@@ -41,15 +41,15 @@ const Qualification = () => {
           return (
             <>
               <div className="mt-5">
-                <p className="font-bold text-gray-800 text-lg flex items-center gap-4 tracking-widest">
+                <p className="font-bold text-gray-800 text-md sm:text-xl flex items-center gap-4 tracking-widest">
                   <span>{item.degreeIcon}</span>
                   {item.degree}
                 </p>
-                <p className="font-bold text-gray-500 flex items-center gap-4">
+                <p className="font-bold text-gray-500 flex items-center gap-4 text-sm sm:text-lg">
                   <span>{item.instituteIcon}</span>
                   {item.institute}
                 </p>
-                <p className="font-semibold text-gray-500 flex items-center gap-4">
+                <p className="font-semibold text-gray-500 flex items-center gap-4 text-sm sm:text-lg">
                   <span>{item.dateIcon}</span>
                   {item.date}
                 </p>

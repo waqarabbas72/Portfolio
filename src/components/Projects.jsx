@@ -58,14 +58,18 @@ const products = [
 export default function Projects() {
   return (
     <div id="projects">
-      <p className="font-bold text-4xl text-center text-gray-800 tracking-wider">
+      <p className="font-bold text-2xl sm:text-4xl text-center text-gray-800 tracking-wider">
         MY PROJECTS
       </p>
 
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Products</h2>
 
-        <Carousel autoPlay infiniteLoop className=" border-gray-100 border-4 p-2 rounded-2xl">
+        <Carousel
+          autoPlay
+          infiniteLoop
+          className=" border-gray-100 border-4 p-2 rounded-2xl"
+        >
           {/* <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"> */}
           {products.map((product) => (
             <div key={product.id} className="group mb-7">

@@ -97,7 +97,7 @@ export default function Header() {
       </nav>
       <Dialog
         as="div"
-        className="lg:hidden"
+        className="lg:hidden "
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >

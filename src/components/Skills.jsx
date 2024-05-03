@@ -65,7 +65,7 @@ const data = [
 const Skills = () => {
   return (
     <div id="skills">
-      <p className="font-bold text-4xl text-center text-gray-800 tracking-widest">
+      <p className="font-bold text-2xl sm:text-4xl text-center text-gray-800 tracking-widest">
         SKILLS & EXPERIENCE
       </p>
       <div className="mx-auto grid max-w-2xl grid-cols-1 md:grid-cols-2 text-center md:text-start items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-3 lg:px-8">
@@ -78,8 +78,8 @@ const Skills = () => {
                   alt=""
                   className="w-auto h-40 rounded-lg my-3 object-center"
                 />
-                <p className="font-bold text-gray-800 text-xl">{item.skill}</p>
-                <p className="text-gray-600 font-bold">{item.experience}</p>
+                <p className="font-bold text-gray-800 text-md sm:text-xl">{item.skill}</p>
+                <p className="text-gray-600 font-bold text-sm sm:text-md">{item.experience}</p>
               </div>
             </>
           );

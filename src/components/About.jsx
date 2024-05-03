@@ -17,7 +17,7 @@ const data = [
 const About = () => {
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-      <p className="font-bold text-4xl text-center text-gray-800 tracking-widest mb-16">
+      <p className="font-bold text-2xl sm:text-4xl text-center text-gray-800 tracking-widest mb-16">
         ABOUT ME
       </p>
 
@@ -28,9 +28,9 @@ const About = () => {
               <div className="mt-5 flex flex-col lg:flex-row items-center justify-between gap-5">
                <img src={me} alt="" className="object-contain w-full h-96 rounded-lg" />
                 <div>
-                  <p className="font-bold text-gray-700 text-2xl tracking-wider">
+                  <p className="font-bold text-gray-700 text-lg sm:text-2xl tracking-wider">
                     Hi There! MySelf{" "}
-                    <span className="text-3xl ml-2 text-gray-800">
+                    <span className="text-xl sm:text-3xl ml-2 text-gray-800">
                       {item.name}
                     </span>{" "}
                     <br />
