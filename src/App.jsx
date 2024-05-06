@@ -11,6 +11,7 @@ import styled from "styled-components";
 import { useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 const StyledBody = styled.body`
   background-color: ${({ theme }) => theme.backgroundColor};
@@ -36,7 +37,7 @@ function App() {
     <>
       <div className="App">
         <StyledBody theme={theme} className="duration-500">
-          <Header />
+          <Header  />
           <button
             onClick={toggleDarkMode}
             className="absolute right-4 top-11 cursor-pointer mx-2 text-2xl duration-500"
@@ -53,6 +54,7 @@ function App() {
           <SocialMedia
             className={`flex items-center py-4 gap-4 justify-center`}
           />
+          <Footer />
         </StyledBody>
       </div>
     </>
