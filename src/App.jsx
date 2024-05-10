@@ -13,49 +13,46 @@ import { MdDarkMode, MdLightMode } from "react-icons/md";
 import About from "./components/About";
 import Footer from "./components/Footer";
 
-const StyledBody = styled.body`
-  background-color: ${({ theme }) => theme.backgroundColor};
-  color: ${({ theme }) => theme.textColor};
-`;
+// const StyledBody = styled.body`
+//   background-color: ${({ theme }) => theme.backgroundColor};
+//   color: ${({ theme }) => theme.textColor};
+// `;
 
-const lightTheme = {
-  backgroundColor: "#fff",
-  textColor: "#000",
-};
+// const lightTheme = {
+//   backgroundColor: "#fff",
+//   textColor: "#000",
+// };
 
-const darkTheme = {
-  backgroundColor: "#000",
-  textColor: "#fff",
-};
+// const darkTheme = {
+//   backgroundColor: "#000",
+//   textColor: "#fff",
+// };
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  // const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
+  // const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 
-  const theme = isDarkMode ? darkTheme : lightTheme;
+  // const theme = isDarkMode ? darkTheme : lightTheme;
   return (
     <>
       <div className="App">
-        <StyledBody theme={theme} className="duration-500">
-          <Header  />
-          <button
+        {/* <StyledBody theme={theme} className="duration-500"> */}
+          {/* <button
             onClick={toggleDarkMode}
             className="absolute right-4 top-11 cursor-pointer mx-2 text-2xl duration-500"
-          >
+            >
             {isDarkMode ? <MdLightMode /> : <MdDarkMode />}
-          </button>
+          </button> */}
+          <Header  />
           <Content />
-          <About />
           <Skills />
+          <About />
           <Projects />
           <Qualification />
           <Work />
           <Contact />
-          <SocialMedia
-            className={`flex items-center py-4 gap-4 justify-center`}
-          />
           <Footer />
-        </StyledBody>
+        {/* </StyledBody> */}
       </div>
     </>
   );

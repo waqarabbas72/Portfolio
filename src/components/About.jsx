@@ -6,7 +6,7 @@ const data = [
   {
     name: "WAQAR ABBAS",
     about:
-      "I'm a passionate front-end developer with 4+ years of experience building user-friendly and responsive web interfaces. I'm proficient in HTML, CSS, JavaScript, and React.js. Beyond the code, I bring strong problem-solving skills and a collaborative spirit to every project. In my free time, I enjoy tinkering with new web technologies and staying up-to-date on the latest trends.",
+      "As a Front-end Developer, I possess an impressive arsenal of skills in HTML, CSS, Javascript, Bootstrap , Tailwind , React , Redux & Next.js. I excel in designing and maintaining responsive websites that offers a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.",
     phone: "+923408616414",
     email: "waqarabas72@gmail.com",
     PhoneIcon: <BiLogoWhatsapp />,
@@ -28,15 +28,10 @@ const About = () => {
               <div className="mt-5 flex flex-col lg:flex-row items-center justify-between gap-5">
                <img src={me} alt="" className="object-contain w-full h-96 rounded-lg" />
                 <div>
-                  <p className="font-bold text-gray-700 text-lg sm:text-2xl tracking-wider">
-                    Hi There! MySelf{" "}
-                    <span className="text-xl sm:text-3xl ml-2 text-gray-800">
-                      {item.name}
-                    </span>{" "}
-                    <br />
-                    <span>Nice to Meet You!</span>
+                  <p className="font-bold text-lg sm:text-2xl tracking-wider">
+                  A dedicated Front-end Developer based in Gilgit,Pakistan 📍
                   </p>
-                  <p className="font-bold text-gray-600 italic text-lg flex items-center gap-4 tracking-wide my-5">
+                  <p className="font-medium text-gray-600  text-lg flex items-center gap-4 tracking-wide my-5">
                     {item.about}
                   </p>
                   <p className="font-bold text-gray-500 flex items-center gap-4">

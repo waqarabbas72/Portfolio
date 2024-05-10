@@ -55,32 +55,27 @@ const data = [
     experience: "3+ Year Of Experience",
     src: redux,
   },
-  {
-    skill: "WEB DESIGN",
-    experience: "4+ Years Of Experience",
-    src: webDesign,
-  },
+  // {
+  //   skill: "WEB DESIGN",
+  //   experience: "4+ Years Of Experience",
+  //   src: webDesign,
+  // },
 ];
 
 const Skills = () => {
   return (
-    <div id="skills">
-      <p className="font-bold text-2xl sm:text-4xl text-center text-gray-800 tracking-widest">
-        SKILLS & EXPERIENCE
+    <div
+      id="skills"
+      className="mx-auto  items-center px-4 py-24 sm:px-6 sm:py-32 max-w-2xl lg:max-w-7xl lg:px-8"
+    >
+      <p className="font-bold text-2xl sm:text-4xl text-center text-gray-800 tracking-widest mb-16">
+        TECH STACK
       </p>
-      <div className="mx-auto grid max-w-2xl grid-cols-1 md:grid-cols-2 text-center md:text-start items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-3 lg:px-8">
+      <div className="flex gap-8 flex-wrap justify-center">
         {data.map((item) => {
           return (
             <>
-              <div className="flex flex-col items-center hover:shadow-2xl rounded-xl duration-500">
-                <img
-                  src={item.src}
-                  alt=""
-                  className="w-auto h-40 rounded-lg my-3 object-center"
-                />
-                <p className="font-bold text-gray-800 text-md sm:text-xl">{item.skill}</p>
-                <p className="text-gray-600 font-bold text-sm sm:text-md">{item.experience}</p>
-              </div>
+              <img src={item.src} alt="" className="w-30 h-20" />
             </>
           );
         })}

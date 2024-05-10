@@ -9,7 +9,7 @@ function PdfDownloadButton({ pdfUrl, fileName }) {
   };
 
   return (
-    <button onClick={handleClick} className="border border-gray-400 text-gray-800 font-bold py-2 px-4">Download CV</button>
+    <button onClick={handleClick} className="border border-gray-400 hover:text-blue-500 duration-300 text-gray-800 font-bold py-2 px-4">Download CV</button>
   );
 }
 
