@@ -204,7 +204,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white py-4 fixed w-full z-10 shadow-xl">
+    <header className="bg-gray-100 py-4 fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold">WaqarAbbas.Dev</h1>
         <div className="md:hidden">

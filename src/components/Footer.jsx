@@ -1,9 +1,10 @@
 import React from 'react'
+import SocialMedia from './SocialMedia'
 
 const Footer = () => {
   return (
-    <div className='bg-gray-900 text-gray-300 text-center p-3 tracking-wider font-bold'>
-       <p>Reach Me Out</p>
+    <div className='bg-gray-100 text-center mt-10 tracking-wider font-bold flex items-center justify-around'>
+       <p>REACH ME OUT</p>
         <SocialMedia
             className={`flex items-center py-4 gap-4 justify-center`}
           />
