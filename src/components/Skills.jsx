@@ -68,7 +68,7 @@ const Skills = () => {
       id="skills"
       className="mx-auto  items-center px-4 py-24 sm:px-6 sm:py-32 max-w-2xl lg:max-w-7xl lg:px-8"
     >
-      <p className="font-bold text-2xl sm:text-4xl text-center text-gray-800 tracking-widest mb-16">
+      <p className="font-bold text-2xl sm:text-4xl text-center text-blue-500 tracking-widest mb-16">
         TECH STACK
       </p>
       <div className="flex gap-8 flex-wrap justify-center">

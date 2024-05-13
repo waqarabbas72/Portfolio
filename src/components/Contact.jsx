@@ -46,7 +46,7 @@ function Contact() {
 
   return (
     <div id="contact">
-      <p className="font-bold text-2xl sm:text-4xl text-center text-gray-800 tracking-widest mb-8">
+      <p className="font-bold text-2xl sm:text-4xl text-center text-blue-500 tracking-widest mb-8">
        GET IN TOUCH!
       </p>
       <form
