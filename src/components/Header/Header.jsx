@@ -179,7 +179,14 @@ const Header = () => {
       containerId: "skills",
     });
   };
-
+  const scrollToAbout = () => {
+    scroller.scrollTo("about", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuint",
+      containerId: "about",
+    });
+  };
   const scrollToProjects = () => {
     scroller.scrollTo("projects", {
       duration: 800,
@@ -234,20 +241,23 @@ const Header = () => {
         >
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
             <Link
-              to="homeTop"
-              className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
-            >
-              Home
-            </Link>
-
-            <Link
               to="skills"
               spy={true}
               smooth={true}
               onClick={scrollToSkills}
               className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
             >
-              Skills
+              SKILLS
+            </Link>
+
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              onClick={scrollToAbout}
+              className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
+            >
+              ABOUT
             </Link>
 
             <Link
@@ -257,7 +267,7 @@ const Header = () => {
               onClick={scrollToProjects}
               className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
             >
-              Projects
+              PROJECTS
             </Link>
             <Link
               to="contact"
@@ -266,7 +276,7 @@ const Header = () => {
               onClick={scrollToContact}
               className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
             >
-              Contact
+              CONTACT
             </Link>
           </div>
         </nav>

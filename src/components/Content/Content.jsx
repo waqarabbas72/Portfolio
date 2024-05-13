@@ -4,7 +4,6 @@ import resume from "../../documents/my-resume.pdf";
 import me from "../../images/me.png";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
-import { PiHandWavingFill } from "react-icons/pi";
 
 export default function Content() {
   const data = [
@@ -19,7 +18,7 @@ export default function Content() {
   ];
 
   return (
-    <div className=" relative" >
+    <div className=" relative">
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center  gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <motion.div
           initial={{ x: "-100vw" }}
@@ -34,7 +33,7 @@ export default function Content() {
             Gilgit,Pakistan 📍
           </p>
 
-          <div className="mt-3 flex gap-3 text-center sm:text-start">
+          <div className="mt-3 flex gap-3 justify-center items-center sm:justify-start">
             <PdfDownloadButton
               pdfUrl={resume}
               fileName="my_downloaded_pdf.pdf"
@@ -44,7 +43,7 @@ export default function Content() {
                 <>
                   <a
                     href={item.href}
-                    className="m-1 text-xl lg:text-3xl cursor-pointer z-10 hover:text-blue-500 duration-300"
+                    className="m-1 text-3xl lg:text-3xl cursor-pointer z-10 hover:text-blue-500 duration-300"
                   >
                     {item.icon}
                   </a>
@@ -53,9 +52,7 @@ export default function Content() {
             })}
           </div>
         </motion.div>
-        {/* <div className="flex lg:gap-5 items-center lg:flex-col lg:absolute lg:top-44 lg:right-3 justify-center sm:justify-start">
-          <SocialMedia className={`flex items-center lg:flex-col gap-4`} />
-        </div> */}
+
         <motion.div
           className="flex justify-center"
           initial={{ y: "100vw" }}

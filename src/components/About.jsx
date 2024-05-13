@@ -16,7 +16,7 @@ const data = [
 
 const About = () => {
   return (
-    <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <div id="about" className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
       <p className="font-bold text-2xl sm:text-4xl text-center text-gray-800 tracking-widest mb-16">
         ABOUT ME
       </p>
