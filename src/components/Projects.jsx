@@ -26,7 +26,7 @@ const products = [
     name: "Crypto App",
     href: "https://cheerful-dieffenbachia-a9a887.netlify.app",
     detail:
-      "This is a Crypto App that allows users to search for information about various cryptocurrencies in real-time",
+      "Experience the future of finance with our Crypto Currency App, meticulously crafted with ReactJS and Tailwind CSS.This app offers an immersive journey into the world of digital assets. Track real-time prices and analyze market trends.",
     imageSrc: crypto,
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
@@ -64,7 +64,8 @@ const products = [
     id: 5,
     name: "ReactJS Calculator",
     href: "https://illustrious-palmier-539d84.netlify.app/",
-    detail: "$35",
+    detail:
+      "Discover the simplicity and sophistication of our ReactJS Calculator—an essential tool for every digital workspace. With a clean and minimalist design, this calculator offers a seamless user experience, making number crunching a breeze",
     imageSrc: calculator,
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
@@ -87,13 +88,13 @@ export default function Projects() {
         {products.map((product) => (
           <div
             key={product.id}
-            className="group mb-12 grid grid-cols-1 lg:grid-cols-2 gap-6 hover:shadow-2xl hover:scale-110 transition-all ease-in-out duration-300"
+            className="group mb-12 items-center grid grid-cols-1 lg:grid-cols-2 gap-6 hover:shadow-2xl hover:scale-110 transition-all ease-in-out duration-300"
           >
-            <div className="shadow-xl">
+            <div className="">
               <img
                 src={product.imageSrc}
                 alt={product.imageAlt}
-                className="h-fit w-auto object-cover object-center group-hover:opacity-75"
+                className="h-fit w-auto object-center group-hover:opacity-75"
               />
             </div>
             <div className="flex flex-col items-center justify-evenly">
