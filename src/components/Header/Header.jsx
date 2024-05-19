@@ -1,6 +1,5 @@
 // import { react } from '@vitejs/plugin-react';
 import React, { useState } from "react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, scroller } from "react-scroll";
 import { CiMenuFries } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
@@ -48,7 +47,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-100 py-4 fixed w-full z-10 flex justify-between px-3">
+    <header className="bg-gray-100 py-4 fixed w-full z-20 flex justify-between px-3">
       <h1 className="text-xl font-bold">WaqarAbbas.Dev</h1>
       <div className="">
         <div className="md:hidden flex justify-end items-end">

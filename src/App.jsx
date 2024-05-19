@@ -12,6 +12,8 @@ import { useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import Clock from "./components/Clock";
 
 // const StyledBody = styled.body`
 //   background-color: ${({ theme }) => theme.backgroundColor};
@@ -37,21 +39,23 @@ function App() {
     <>
       <div className="App">
         {/* <StyledBody theme={theme} className="duration-500"> */}
-          {/* <button
+        {/* <button
             onClick={toggleDarkMode}
             className="absolute right-4 top-11 cursor-pointer mx-2 text-2xl duration-500"
             >
             {isDarkMode ? <MdLightMode /> : <MdDarkMode />}
           </button> */}
-          <Header  />
-          <Content />
-          <Skills />
-          <About />
-          <Projects />
-          <Qualification />
-          <Work />
-          <Contact />
-          <Footer />
+        <Header />
+        <Content />
+        {/* <Clock /> */}
+        <Skills />
+        <About />
+        <Projects />
+        <Qualification />
+        <Work />
+        <Contact />
+        <Footer />
+        <ScrollToTop />
         {/* </StyledBody> */}
       </div>
     </>

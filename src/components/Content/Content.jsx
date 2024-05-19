@@ -62,8 +62,16 @@ export default function Content() {
           <img
             src={me}
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            className="rounded-full bg-gray-100 w-96"
+            className="rounded-full bg-gray-100 w-96 z-10"
           />
+          {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill="#FF0066"
+              d="M38.8,-65.4C52.5,-59.2,67.5,-53.4,76.3,-42.6C85.1,-31.7,87.7,-15.9,87.7,0C87.8,15.9,85.3,31.9,77.5,44.5C69.8,57.2,56.9,66.7,43.1,73.4C29.3,80.2,14.6,84.3,0.4,83.7C-13.9,83,-27.8,77.7,-41,70.5C-54.2,63.4,-66.8,54.6,-75.8,42.6C-84.9,30.5,-90.5,15.3,-89.3,0.7C-88,-13.9,-80,-27.7,-71.8,-41.2C-63.6,-54.7,-55.2,-67.9,-43.2,-75.1C-31.2,-82.4,-15.6,-83.6,-1.5,-80.9C12.5,-78.2,25,-71.6,38.8,-65.4Z"
+              transform="translate(100 100)"
+            />
+          </svg> */}
+         
         </motion.div>
       </div>
     </div>
