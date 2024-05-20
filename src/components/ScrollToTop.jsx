@@ -11,7 +11,7 @@ const ScrollToTop = () => {
   return (
     <>
       <MdOutlineKeyboardDoubleArrowUp
-        className="h-8 w-8 fixed bottom-10 right-2 cursor-pointer z-10 hidden md:block"
+        className="h-8 w-8 fixed bottom-8 right-2 cursor-pointer z-10 hidden md:block"
         onClick={scrollToTop}
       />
     </>
