@@ -9,6 +9,7 @@ const data = [
     companyIcon: <FaBuilding />,
     roleIcon: <FaUser />,
     dateIcon: <BsCalendar2DateFill />,
+    description: "As a Front-End Developer at Codelancer since September 2022, I'm passionate about using my skills to build user-friendly and visually appealing websites. I focus on crafting interfaces that are not only functional but also a joy to navigate."
   },
   {
     company: "NORTH-AIMS TECHNOLOGIES GILGIT",
@@ -17,6 +18,7 @@ const data = [
     companyIcon: <FaBuilding />,
     roleIcon: <FaUser />,
     dateIcon: <BsCalendar2DateFill />,
+    description: "During my time at North-Aims Tech, from September 2021 to September 2022, I had the valuable opportunity to immerse myself in the world of front-end development. It was a year of continuous learning, growth, and contributing to a variety of exciting projects."
   },
 ];
 
@@ -43,6 +45,9 @@ const Work = () => {
                 <p className="font-semibold text-gray-500 flex items-center gap-4 text-sm sm:text-lg">
                   <span>{item.dateIcon}</span>
                   {item.date}
+                </p>
+                <p className="font-semibold text-gray-600 italic my-2 text-sm sm:text-lg">
+                  {item.description}
                 </p>
               </div>
             </>
